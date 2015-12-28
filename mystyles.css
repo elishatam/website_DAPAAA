@@ -1,0 +1,50 @@
+style1 {
+	font-family: helvetica, sans-serif;
+	font-size: 0.8em;
+	text-align: justify;
+	line-height: 2em;
+	color: #000000; }
+
+style2 {
+	font-family: georgia, arial, sans-serif;
+	font-size: 1.5em;
+	text-align: justify;
+	line-height: 1.5em;
+	color: #006600; }    
+
+styleTitle {
+	font-family: georgia, arial, sans-serif;
+	font-size: 1.5em;
+	text-align: justify;
+	color: #000000; }
+   
+    
+body {
+	background-color: #ffffff;
+    font-family: helvetica, sans-serif;
+	font-size: 0.8em;
+	line-height: 1.5em;
+	color: #000000;}
+
+
+table {
+	background-color: #ffffff;}
+td {
+	font-family: helvetica, sans-serif;
+	font-size: 0.8em;
+	line-height: 1.5em;
+	color: #000000;}
+
+    
+a:link {font-family: georgia, arial; font-size: 1em; COLOR: #999999; TEXT-DECORATION: none; font-weight: none}
+a:visited {font-family: georgia, arial; font-size: 1em; COLOR: #999999; TEXT-DECORATION: none; font-weight: none}
+a:hover {font-family: georgia, arial; font-size: 1em; COLOR: #666666; TEXT-DECORATION: none; font-weight: none}
+a:active {font-family: georgia, arial; font-size: 1em; COLOR: #666666; TEXT-DECORATION: none; font-weight: none}
+
+a.inside:link {font-family: georgia, arial; COLOR: #006600; TEXT-DECORATION: none; font-weight: bold}
+a.inside:visited {font-family: georgia, arial; COLOR: #006600; TEXT-DECORATION: none; font-weight: bold}
+a.inside:hover {font-family: georgia, arial; COLOR: #ff3300; TEXT-DECORATION: none; font-weight: bold}
+a.inside:active {font-family: georgia, arial; COLOR: #006600; TEXT-DECORATION: none; font-weight: bold}
+
+
+.hiddenDiv {display:none;}

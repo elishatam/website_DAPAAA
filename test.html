@@ -1,0 +1,83 @@
+<html>
+<head>
+
+<title> DAPAAA - Contact Us</title>
+
+<link rel="stylesheet" type="text/css" href="mystyles.css">
+
+<script type="text/javascript">
+
+function toggleVisibility() {
+  document.getElementById("toggleMe").style.display = "";
+  if(document.getElementById("toggleMe").style.visibility == "hidden" ) {
+    document.getElementById("toggleMe").style.visibility = "visible";
+  }
+  else {
+  document.getElementById("toggleMe").style.visibility = "hidden";
+  }
+}
+function toggleDisplay() {
+  document.getElementById("toggleMe").style.visibility = "visible";
+  if(document.getElementById("toggleMe").style.display == "none" ) {
+    document.getElementById("toggleMe").style.display = "";
+  }
+  else {
+    document.getElementById("toggleMe").style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body>
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0" bordercolor="#cccccc">
+
+  <tr>
+    <td align="left" colspan=3>
+    <img src="photos/logoGray2.jpg" width="800">
+    </td>
+  </tr>
+  
+  <tr>
+    <td align="right" valign="top" width="140">
+    <br>
+    <a href="index0.html">HOME</a> 
+    <br><a href="about.html">ABOUT</a>
+    <br><a href="events.html">EVENTS</a>
+    <br><a href="gallery.html">GALLERY</a>
+    <br><a href="contact.html">CONTACT US</a>
+    <br>
+    <br>
+    <br><a href="http://www.facebook.com/group.php?gid=2360384544">FACEBOOK PAGE</a>
+    <br><a href="http://alumni.dartmouth.edu/">DARTMOUTH ALUMNI RELATIONS</a>
+    </td>
+    
+    <td width="20">
+    </td>
+    
+    <td align="left" width="600">
+    <hr align="left" color="#08681c" width="600">
+    <img src="photos/BYOAGroup.jpg" width="600">
+    <br>
+    <hr align="left" color="#08681c" width="600">
+    <br>
+    <p><a href="#" onclick="toggleDisplay();">Click to toggle display.</a> | <a href="#" onclick="toggleVisibility();">Click to toggle visibility.</a></p>
+<div id="toggleMe" style="visibility: hidden;"> Something to Hide and show. Display collapses it's layout while visibility will keep it's layout.</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    </td>
+
+    
+
+
+
+
+
+
+
+
+</body>
+
+</html>
